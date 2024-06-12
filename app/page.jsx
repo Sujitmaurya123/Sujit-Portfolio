@@ -2,7 +2,7 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
-
+import Link from "next/link";
 import {FiDownload} from "react-icons/fi"
 
 const Home = () => {
@@ -23,7 +23,10 @@ const Home = () => {
           {/* btn & social media */}
           <div className="flex flex-col xl:flex-row items-center gap-8">
             <Button  variant="outline" size="lg" className="uppercase flex items-center gap-2" >
-              <span>Download CV</span>
+              <span > <Link href="/assets/CV_SujitKumar.pdf">
+              Download CV
+              </Link> 
+              </span>
               <FiDownload className="text-xl" />
             </Button>
             <div className="mb-8 xl:mb-0 ">

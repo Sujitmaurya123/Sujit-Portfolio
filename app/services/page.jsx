@@ -7,7 +7,7 @@ const services=[
     num:"01",
     title:"Web Development",
     description:
-    "Front End Development: HTML, CSS, JavaScript, Bootstrap, ReactJs, NextJs & Backend End Development: NodeJS, ExpressJS, MySQL, Mongoose, REST APIs etc.",
+    "Front End Development: HTML, CSS, JavaScript, TypeScript, ReactJs, NextJs & Backend End Development: NodeJS, ExpressJS, MySQL, Mongoose, REST APIs etc.",
     href:""
   },
   {

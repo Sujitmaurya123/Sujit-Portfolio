@@ -31,7 +31,7 @@ const Stats = () => {
                             delay={2}
                             className="text-4xl xl:text-6xl font-extrabold"
                             />
-                            <p className={`${items.text.length<15 ?"max-w-[100px]":"max-w-[150px]"}leading-snug text-white/80`}>
+                            <p className={`${items.text.length<15 ?"max-w-[100px]":"max-w-[150px]"}leading-snug text-accent`}>
                                 {items.text}</p>
                         </div>
                     )
@@ -40,6 +40,7 @@ const Stats = () => {
                 }
             </div>
         </div>
+       
     </section>
   )
 }

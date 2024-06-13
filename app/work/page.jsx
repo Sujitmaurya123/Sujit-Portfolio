@@ -20,7 +20,7 @@ const projects=[
     category:"fullstack",
     title:"project 1",
     description:
-    "ChatApp ",
+    "Developed a comprehensive chat feature for Users, enhancing user communication through real-time messaging. The ChatApp feature includes functionalities such as: 1.Real-Time Messaging 2.User Authentication 3.Notifications 4.UI/UX Design 5.Create Groups and Manage groups 6.Admin Dashboard for all see messages ,chats ,user etc. 7. Send Files ,video ,images users to each others 8. Searching Friends and Send Request and chats us. 9. Delete Chats 10. Full responsiveness all devices and Deployment project ",
     stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MongoDB"}],
     image:'/assets/work/chatapp.png',
     live:"https://chat-app-frontend-nine-jet.vercel.app/",
@@ -31,7 +31,7 @@ const projects=[
     category:"fullstack",
     title:"project 2",
     description:
-    "EcommerceApp ",
+    "Develop an eCommerce application with functionalities for customers to search for products, add products to the cart, and purchase them. Additionally, create an admin dashboard for managing products, viewing customer information, and visualizing transaction data with various charts. 1-Product Search 2-Product Details 3-Shopping Cart 4-Checkout Process 5-User Authentication 6-Admin Dashboard 7-Product Management 8-Data Visualization 9-Customer Management 10-Order Management ",
     stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MongoDB"},{name:"TypeScript"}],
     image:'/assets/work/ecommerceapp.png',
     live:"",
@@ -42,7 +42,7 @@ const projects=[
     category:"fullstack",
     title:"project 3",
     description:
-    "Employee Managements System ",
+    "Develop a full-stack web application for managing employee recruitment and details, with an admin board for managing the entire system. The system should be user-friendly and compatible with all devices. 1-User Authentication 2-Responsive Design 3-Dashboard Overview 4-Employee Management 5-Department Management 6-Profile Management ",
     stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MySQL"}],
     image:'/assets/work/employee.png',
     live:"",
@@ -74,7 +74,7 @@ const Work = () => {
           {/* project description */}
           <p className="text-white/60">{project.description}</p>
           {/* stack */}
-          <ul  className="flex gap-4">
+          <ul  className="flex gap-4"> Stack -
             {project.stack.map((item,index)=>{
               return (
                 <li Key={index}className="text-xl text-accent">
@@ -145,12 +145,27 @@ const Work = () => {
             }
             {/* slider buttons */}
             <WorkSliderBtns containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] xl:bottom-0 
-            z-20 w-full justify-between xl:w-max xl:justify-none" 
-            btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center transition-all"
+            z-20 w-full justify-between xl:w-max xl:justify-none  " 
+            btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex flex-row  justify-center transition-all"
             
             />
           </Swiper>
         </div>
+      </div>
+         {/* github project button for all project */}
+       <div className="flex flex-row justify-center items-center text-xl text-white gap-3" >Find More Project to check My Github -
+            <Link href="https://github.com/Sujitmaurya123">
+              <TooltipProvider delayDuration={100}>
+                <Tooltip>
+                  <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                    <BsGithub className="text-white text-3xl group-hover:text-accent" />
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Github repository for all projects seen</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            </Link>
       </div>
     </motion.section>
   )

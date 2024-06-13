@@ -8,7 +8,7 @@ import {SiTailwindcss,SiNextdotjs} from "react-icons/si";
 const about ={
   title:"About me",
   description:
-  "My name is Sujit Kumar",
+  "I am a highly motivated and skilled individual with a Bachelor of Technology in Computer Science and Engineering from the University Institute of Engineering and Technology (UIET), Kanpur. My academic journey has equipped me with a strong foundation in computer science principles, complemented by practical experience in full-stack web development, competitive programming, and UI/UX design & experience in web development, proficient in HTML, CSS, TailwindCss, JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB, MySQL, Git, AWS. Active in competitive programming on LeetCode, GFG, and CodeChef, with strong skills in C++, Java, and Python. Experienced in Figma for UI/UX design, creating user-friendly interfaces and seamless integrations.",
   info:[
     {
       fieldName:"Name",
@@ -35,13 +35,8 @@ const about ={
 const experience={
   icons:"/assets/resume/badge.svg",
   title:"My experience",
-  description:"I am web developer",
+  description:"A highly motivated and skilled individual with a B.Tech in Computer Science and Engineering from UIET Kanpur. Proficient in full-stack web development, competitive programming, and UI/UX design. Demonstrates a strong foundation in computer science principles and practical experience in developing and deploying web applications. Passionate about solving complex problems through code and creating intuitive user interfaces.",
   items:[
-    {
-      company:"Leetcode",
-      position:"Problem Solve",
-      duration:"450+",
-    },
     {
       company:"My project",
       position:"Full Stack Developer",
@@ -51,6 +46,11 @@ const experience={
       company:"UI/UX Design",
       position:"Figam",
       duration:"5+",
+    },
+    {
+      company:"Leetcode",
+      position:"Problem Solve",
+      duration:"450+",
     },
     {
       company:"GFG",
@@ -67,7 +67,7 @@ const education ={
   icon:"/assets/resume/cap.svg",
   title:"My education",
   description:
-  "My Education",
+  "Bachelor of Technology in Computer Science and Engineering",
   items:[
     {
       institution:"CSJMU UIET Kanpur",
@@ -75,14 +75,14 @@ const education ={
       duration:"2021-Present,"
     },
     {
-      institution:"CSJMU UIET Kanpur",
-      degree:"B.Tech(CSE)",
-      duration:"2021-Present,"
+      institution:"BBS School & College Shivkuti Prayagraj",
+      degree:"Intermediate",
+      duration:"2017-2019,"
     },
     {
-      institution:"CSJMU UIET Kanpur",
-      degree:"B.Tech(CSE)",
-      duration:"2021-Present,"
+      institution:"KIC Rajgarh Mirzapur",
+      degree:"High School",
+      duration:"2015-2017,"
     }
   ]
 
@@ -91,7 +91,7 @@ const education ={
 const skills={
   title:"My Skills",
   description:
-  "my skills",
+  "Proficient in web development with expertise in HTML, CSS, TailwindCss, JavaScript, React.js, Next.js, Node.js, Express.js, and Socket.io. Skilled in database management using MongoDB, MySQL, and SQL. Experienced in version control with Git and GitHub, and deployment to vercel and render. Active in competitive programming on platforms like LeetCode, GeeksforGeeks (GFG), and CodeChef, proficient in C++, Java, and Python. Additionally, adept in UI/UX design using Figma, creating intuitive interfaces and collaborating effectively with developers for seamless integration.",
   skillList:[
     {
       icon:<FaHtml5 />,
@@ -248,7 +248,7 @@ const Resume = () => {
                   {about.info.map((item,index)=>{
                     return(
                       <li key={index} className="flex items-center justify-center xl:justify-start gap-5">
-                        <span className="text-white/60">{item.fieldName}</span>
+                        <span className="text-accent">{item.fieldName}-</span>
                         <span className="text-xl">{item.fieldValue}</span>
                       </li>
                     )

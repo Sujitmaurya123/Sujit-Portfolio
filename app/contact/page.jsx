@@ -21,7 +21,7 @@ const info=[
   {
     icon:<FaMapMarkedAlt />,
     title:"Address",
-    description:"Kanpur Utter Pradesh",
+    description:"Kanpur Uttar Pradesh",
   },
 ]
 

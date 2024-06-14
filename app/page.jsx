@@ -17,7 +17,7 @@ const Home = () => {
             Hello I am <br /> <span className="text-accent">Sujit Kumar</span>
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80">
-            I have pursing Bachelors Degree in B.tech from UIET Kanpur
+            I  pursing Bachelors Degree in B.tech from UIET Kanpur
              Uttar Pradesh. I love all things tech,coding and Development.
           </p>
           {/* btn & social media */}

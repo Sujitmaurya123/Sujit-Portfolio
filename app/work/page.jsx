@@ -34,7 +34,7 @@ const projects=[
     "Develop an eCommerce application with functionalities for customers to search for products, add products to the cart, and purchase them. Additionally, create an admin dashboard for managing products, viewing customer information, and visualizing transaction data with various charts. 1-Product Search 2-Product Details 3-Shopping Cart 4-Checkout Process 5-User Authentication 6-Admin Dashboard 7-Product Management 8-Data Visualization 9-Customer Management 10-Order Management ",
     stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MongoDB"},{name:"TypeScript"}],
     image:'/assets/work/ecommerceapp.png',
-    live:"",
+    live:"ecommerce-frontend-beryl-nine.vercel.app",
     github:"https://github.com/Sujitmaurya123/EcommerceApp",
   },
   {
@@ -45,7 +45,7 @@ const projects=[
     "Develop a full-stack web application for managing employee recruitment and details, with an admin board for managing the entire system. The system should be user-friendly and compatible with all devices. 1-User Authentication 2-Responsive Design 3-Dashboard Overview 4-Employee Management 5-Department Management 6-Profile Management ",
     stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MySQL"}],
     image:'/assets/work/employee.png',
-    live:"",
+    live:"https://github.com/Sujitmaurya123/DBMS_Projects",
     github:"https://github.com/Sujitmaurya123/DBMS_Projects",
   },
 ]

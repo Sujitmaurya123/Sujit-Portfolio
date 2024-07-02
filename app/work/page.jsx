@@ -34,7 +34,7 @@ const projects=[
     "Develop an eCommerce application with functionalities for customers to search for products, add products to the cart, and purchase them. Additionally, create an admin dashboard for managing products, viewing customer information, and visualizing transaction data with various charts. 1-Product Search 2-Product Details 3-Shopping Cart 4-Checkout Process 5-User Authentication 6-Admin Dashboard 7-Product Management 8-Data Visualization 9-Customer Management 10-Order Management ",
     stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MongoDB"},{name:"TypeScript"}],
     image:'/assets/work/ecommerceapp.png',
-    live:"ecommerce-frontend-beryl-nine.vercel.app",
+    live:"https://ecommerce-frontend-beryl-nine.vercel.app",
     github:"https://github.com/Sujitmaurya123/EcommerceApp",
   },
   {

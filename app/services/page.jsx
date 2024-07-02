@@ -8,13 +8,15 @@ const services=[
     title:"Web Development",
     description:
     "Front End Development: HTML, CSS, JavaScript, TypeScript, ReactJs, NextJs & Backend End Development: NodeJS, ExpressJS, MySQL, Mongoose, REST APIs etc.",
-    href:""
+    href:"",
+    
+
   },
   {
     num:"02",
-    title:"Competitive Programmer",
+    title:"DevOps",
     description:
-    "As a competitive programmer, I excel in solving algorithmic challenges on platforms like LeetCode, GeeksforGeeks (GFG), and CodeChef. These platforms enhance my coding skills, problem-solving abilities, and help me stay sharp in the competitive programming community.",
+    "DevOps integrates software development and IT operations, aiming to shorten development cycles, increase deployment frequency, and deliver high-quality software by fostering collaboration, automation, continuous integration, and continuous delivery.",
     href:""
   },
   {
@@ -24,13 +26,14 @@ const services=[
     "I specialize in UI/UX design using Figma, creating intuitive and visually appealing interfaces. My focus is on user-centered design, ensuring seamless and engaging user experiences across digital platforms.",
     href:""
   },
-   {
+  {
     num:"04",
-    title:"Languages",
+    title:"Competitive Programmer",
     description:
-    "Programming Languages : C, C++, Java, Python, JavaScript, TypeScript",
+    "As a competitive programmer, I excel in solving algorithmic challenges on platforms like LeetCode, GeeksforGeeks (GFG), and CodeChef. These platforms enhance my coding skills, problem-solving abilities, and help me stay sharp in the competitive programming community.",
     href:""
   },
+   
 
 ]
 

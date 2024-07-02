@@ -38,9 +38,14 @@ const experience={
   description:"A highly motivated and skilled individual with a B.Tech in Computer Science and Engineering from UIET Kanpur. Proficient in full-stack web development, competitive programming, and UI/UX design. Demonstrates a strong foundation in computer science principles and practical experience in developing and deploying web applications. Passionate about solving complex problems through code and creating intuitive user interfaces.",
   items:[
     {
-      company:"My project",
+      company:"My projects",
       position:"Full Stack Developer",
       duration:"10+",
+    },
+    {
+      company:"DevOps projects",
+      position:"DevOps",
+      duration:"2+",
     },
     {
       company:"UI/UX Design",
@@ -48,15 +53,11 @@ const experience={
       duration:"5+",
     },
     {
-      company:"Leetcode",
-      position:"Problem Solve",
-      duration:"450+",
-    },
-    {
-      company:"GFG",
+      company:"Leetcode & GFG",
       position:"Problem Solve",
       duration:"500+",
     },
+    
     
     
   ]

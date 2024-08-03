@@ -12,7 +12,7 @@ const stats=[
         text:"DSA Problem solve",
     },
     {
-        num:4,
+        num:6,
         text:"Deploy Project",
     },
 ];

@@ -17,6 +17,7 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects=[
   {
     num:"01",
+    projectname:"ChatApp",
     category:"fullstack",
     title:"project 1",
     description:
@@ -26,29 +27,55 @@ const projects=[
     live:"https://chat-app-frontend-nine-jet.vercel.app/",
     github:"https://github.com/Sujitmaurya123/Chat-App",
   },
+
   {
     num:"02",
+     projectname:"Pathfinding-visualizer",
+    category:"Frontend",
+    title:"project 3",
+    description:
+    "1.Developed an interactive Pathfinding Visualizer using React, TypeScript, and TailwindCSS, implementing BFS, DFS, Dijkstra, and A-star algorithms.2.Integrated Binary Tree and Recursive Division for maze generation, enhancing the educational aspect of the tool.3.Created smooth, animated visualizations for step-by-step algorithm exploration.4.Designed a user-friendly interface with customizable options for algorithm selection and grid manipulation.5.Optimized performance for handling large datasets and efficient rendering.6.Deployed the application on a cloud platform, ensuring reliability through extensive testing.",
+    stack:[{name:"ReactJs"},{name:"Typescript"},{name:"TailwindCSS"}],
+    image:'/assets/work/findpath.png',
+    live:"https://pathfinding-visualizer-iota-pearl.vercel.app",
+    github:"https://github.com/Sujitmaurya123/Pathfinding-visualizer",
+  },
+    {
+    num:"03",
+    projectname:"E-App",
     category:"fullstack",
     title:"project 2",
     description:
-    "Develop an eCommerce application with functionalities for customers to search for products, add products to the cart, and purchase them. Additionally, create an admin dashboard for managing products, viewing customer information, and visualizing transaction data with various charts. 1-Product Search 2-Product Details 3-Shopping Cart 4-Checkout Process 5-User Authentication 6-Admin Dashboard 7-Product Management 8-Data Visualization 9-Customer Management 10-Order Management ",
+    "Develop an eCommerce application with functionalities for customers to search for products, add products to the cart, Payment gatways and purchase them. Additionally, create an admin dashboard for managing products, viewing customer information, and visualizing transaction data with various charts. 1-Product Search 2-Product Details 3-Shopping Cart 4-Checkout Process 5-User Authentication 6-Admin Dashboard 7-Product Management 8-Data Visualization 9-Customer Management 10-Order Management ",
     stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MongoDB"},{name:"TypeScript"}],
     image:'/assets/work/ecommerceapp.png',
     live:"https://ecommerce-frontend-beryl-nine.vercel.app",
     github:"https://github.com/Sujitmaurya123/EcommerceApp",
   },
   {
-    num:"03",
+    num:"04",
+    projectname:"music-app",
     category:"fullstack",
-    title:"project 3",
+    title:"project 4",
     description:
-    "Develop a full-stack web application for managing employee recruitment and details, with an admin board for managing the entire system. The system should be user-friendly and compatible with all devices. 1-User Authentication 2-Responsive Design 3-Dashboard Overview 4-Employee Management 5-Department Management 6-Profile Management ",
-    stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MySQL"}],
-    image:'/assets/work/employee.png',
-    live:"https://github.com/Sujitmaurya123/DBMS_Projects",
-    github:"https://github.com/Sujitmaurya123/DBMS_Projects",
+    "1.Developed a feature-rich music streaming app similar to Spotify, using ReactJs for cross-platform compatibility and Admin Board to add songs, album.2.Integrated music playback and playlist creation functionalities with a responsive and intuitive user interface.3.Implemented user authentication and profile management, enabling personalized music recommendations.4.Utilized RESTful APIs to fetch and manage music data, ensuring seamless performance.5.Optimized app performance for smooth playback and minimal load times across devices. ",
+    stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MongoDB"}],
+    image:'/assets/work/music.png',
+    live:"https://music-app-psi-hazel.vercel.app",
+    github:"https://github.com/Sujitmaurya123/music-App",
   },
-]
+//   {
+//     num:"03",
+//     category:"fullstack",
+//     title:"project 3",
+//     description:
+//     "Develop a full-stack web application for managing employee recruitment and details, with an admin board for managing the entire system. The system should be user-friendly and compatible with all devices. 1-User Authentication 2-Responsive Design 3-Dashboard Overview 4-Employee Management 5-Department Management 6-Profile Management ",
+//     stack:[{name:"ReactJs"},{name:"NodeJs"},{name:"Express"},{name:"MySQL"}],
+//     image:'/assets/work/employee.png',
+//     live:"https://github.com/Sujitmaurya123/DBMS_Projects",
+//     github:"https://github.com/Sujitmaurya123/DBMS_Projects",
+//   },
+    ]
 
 const Work = () => {
   const [project,setProject]=useState(projects[0]);
@@ -68,8 +95,11 @@ const Work = () => {
             <div  className="text-8xl leading-none font-extrabold text-transparent
              text-outline">{project.num}</div>
           </div>
+          {/* project name */}
+          <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize p-2"
+          >{project.projectname} </h2>
           {/* project category */}
-          <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize"
+          <h2 className="text-[30px] font-bold leading-none text-yellow-800 group-hover:text-accent transition-all duration-500 capitalize"
           >{project.category} project</h2>
           {/* project description */}
           <p className="text-white/60">{project.description}</p>

@@ -40,8 +40,20 @@ const projects=[
     live:"https://pathfinding-visualizer-iota-pearl.vercel.app",
     github:"https://github.com/Sujitmaurya123/Pathfinding-visualizer",
   },
-    {
+  {
     num:"03",
+    projectname:"Clash",
+    category:"fullstack",
+    title:"project 2",
+    description:
+    "Integrated Gmail-Based Authentication: Built a robust authentication system that uses Gmail for user registration and login, streamlining the user experience and enhancing security.Utilized Redis for Real-Time Updates: Employed Redis to manage real-time data and queuing, ensuring instant updates and interactions such as live voting and commenting are processed efficiently.Developed an Interactive Clash Dashboard: Engineered a visually engaging dashboard for side-by-side image comparisons, incorporating features for real-time voting and commenting to foster user interaction and feedback. ",
+    stack:[{name:"NextJs"},{name:"TypeScript"},{name:"Express"},{name:"Prisma"},{name:"Postgresql"}],
+    image:'/assets/work/Clash.png',
+    live:"https://github.com/Sujitmaurya123/Clash",
+    github:"https://github.com/Sujitmaurya123/Clash",
+  },
+    {
+    num:"04",
     projectname:"E-App",
     category:"fullstack",
     title:"project 2",
@@ -53,7 +65,7 @@ const projects=[
     github:"https://github.com/Sujitmaurya123/EcommerceApp",
   },
   {
-    num:"04",
+    num:"05",
     projectname:"music-app",
     category:"fullstack",
     title:"project 4",
@@ -120,7 +132,7 @@ const Work = () => {
           {/* buttons */}
           <div className="flex items-center gap-4">
             {/* live project button */}
-            <Link href={project.live}>
+            <Link href={project.live} target="_blank">
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
                   <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -134,7 +146,7 @@ const Work = () => {
             </Link>
            
             {/* github project button */}
-            <Link href={project.github}>
+            <Link href={project.github} target="_blank">
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
                   <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">

@@ -47,7 +47,7 @@ const Home = () => {
           </div>
           <div className="flex  flex-wrap gap-8  mt-5 ml-4 text-blue-400">
                  
-            <Link href="/work" className=" hover:underline flex items-center">View My Project <GoArrowRight /></Link>             
+            <Link href="/projects" className=" hover:underline flex items-center">View My Project <GoArrowRight /></Link>             
                       
             <Link href="/resume" className=" hover:underline flex items-center">View My Experience <GoArrowRight /></Link>             
             
